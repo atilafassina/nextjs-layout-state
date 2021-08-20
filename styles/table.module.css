@@ -1,0 +1,27 @@
+.table {
+  margin: 5rem auto 0;
+  max-width: var(--content-width);
+  border-collapse: collapse;
+  --border-color: rgb(110, 110, 110);
+}
+
+.headerRow {
+  border-bottom: solid 1px var(--border-color);
+}
+
+.bodyRow {
+  --top-padding: 0.7rem;
+  text-align: left;
+}
+.bodyRow:first-of-type {
+  --top-padding: 1.5rem;
+}
+
+.cell {
+  border-left: solid 1px var(--border-color);
+  padding: var(--top-padding) 0.5rem;
+}
+
+.cell:first-of-type {
+  border: none;
+}

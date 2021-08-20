@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: rgb(240, 240, 240);
+  background-color: rgb(10, 10, 10);
+  line-height: 1.5;
+  --content-width: 60ch;
+}
+
+section,
+article,
+div {
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(70, 150, 250);
+}
+
+a:hover,
+a:focus {
+  color: rgb(120, 210, 250);
+}
+
+code {
+  color: rgb(22, 200, 33);
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+code::before,
+code::after {
+  content: '`';
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.description {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
