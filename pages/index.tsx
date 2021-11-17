@@ -24,7 +24,7 @@ export default function StatefulPage(
         </p>
         <p>
           To learn more, check the article on{' '}
-          <a href="https//atila.io/smashingmag" target="_blank" rel="noopener">
+          <a href="https://www.smashingmagazine.com/2021/08/state-management-nextjs/" target="_blank" rel="noopener">
             Smashing Magazine
           </a>
         </p>
