@@ -10,7 +10,7 @@
 First, run the development server:
 
 ```sh
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
@@ -26,12 +26,12 @@ git clone https://github.com/atilafassina/nextjs-layout-state.git {{your-directo
 2. Navigate to the directory and run
 
 ```
-yarn && yarn dev
+npm i && npm run dev
 ```
 
 3. Be happy 🚀
 
-## What's inside? 👩‍🔧
+## Support 👩‍🔧
 
 | dependency | version |
 | ---------- | ------- |
